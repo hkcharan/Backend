@@ -36,7 +36,7 @@ export const sendMessage = async (req, res) => {
       to: email,
       subject: "Thank You for Visiting My Portfolio!",
       html: `
-        <div style="background-color: #f5f5f5; padding: 40px; font-family: Arial, sans-serif;">
+        <div style="background-color: #f5f5f5; padding: 2px; font-family: Arial, sans-serif;">
           <div style="max-width: 600px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
             
             <div style="background: linear-gradient(135deg, #4CAF50, #66BB6A); padding: 20px; color: white; text-align: center;">
@@ -86,7 +86,7 @@ export const sendMessage = async (req, res) => {
       to: process.env.SMTP_MAIL,
       subject: "New Message from Your Portfolio Website",
       html: `
-        <div style="background-color: #f4f4f4; padding: 40px; font-family: Arial, sans-serif;">
+        <div style="background-color: #f4f4f4; padding: 2px; font-family: Arial, sans-serif;">
           <div style="max-width: 600px; margin: auto; background: white; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
             
             <div style="background: linear-gradient(135deg, #4CAF50, #66BB6A); padding: 20px; color: white; text-align: center;">
